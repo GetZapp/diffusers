@@ -286,7 +286,6 @@ class ConfigMixin:
 
         </Tip>
         """
-        print(pretrained_model_name_or_path)
         cache_dir = kwargs.pop("cache_dir", DIFFUSERS_CACHE)
         force_download = kwargs.pop("force_download", False)
         resume_download = kwargs.pop("resume_download", False)
